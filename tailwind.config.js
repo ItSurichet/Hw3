@@ -1,9 +1,10 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+  extend: {
+  // ส่วนขยายธีมเพิ่มเติมจะอยู่ที่นี่
+  },
   },
   plugins: [],
-}
-
+ }
+ 
